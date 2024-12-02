@@ -23,6 +23,7 @@
         <Button x:Name="StackButton" 
             Text="Ismael"
             Grid.Row="0" Grid.Column="1"
+                TextColor="Aqua"
             BackgroundColor="DarkRed"/>
 
         <Button  x:Name="GitHubButton"
@@ -34,6 +35,7 @@
         <Button  x:Name="FavoriteSongButton"
              Text="Velasco"
             Grid.Row="1" Grid.Column="1" 
+                 TextColor="White"
             BackgroundColor="Blue"
              Clicked="FavoriteSongButton_Clicked"/>
     </Grid>

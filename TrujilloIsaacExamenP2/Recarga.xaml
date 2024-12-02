@@ -10,9 +10,9 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         
-        <Editor x:Name="NumberTrujilloEditor"
+        <Editor x:Name="TextEditor"
                 Placeholder="Ingresa tu numero"
-                HeightRequest="100" />
+                HeightRequest="10" />
         <Label 
     Text="Ingresa tu Nombre"
     VerticalOptions="Center" 
@@ -23,13 +23,12 @@
                 HeightRequest="100" />
         
         <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
-            <Button Text="Save"
-                     />
-
-            <Button Grid.Column="1"
+                <Button Text="Save"
+                     Clicked="SaveButton_Clicked"/>
+                <Button Grid.Column="1"
                     Text="Delete"
-                   />
-        </Grid>
+                    Clicked="DeleteButton_Clicked" />
+            </Grid>
 
 
     </VerticalStackLayout>
