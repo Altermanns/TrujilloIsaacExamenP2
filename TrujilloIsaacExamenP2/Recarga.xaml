@@ -3,13 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TrujilloIsaacExamenP2.Recarga"
              Title="Recarga">
+    <ScrollView>
     <VerticalStackLayout Spacing="10" Margin="5">
         <Label 
             Text="Ingresa tu nuemero de Telefono"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         
-        <Editor x:Name="NumberEditor"
+        <Editor x:Name="NumberTrujilloEditor"
                 Placeholder="Ingresa tu numero"
                 HeightRequest="100" />
         <Label 
@@ -17,7 +18,7 @@
     VerticalOptions="Center" 
     HorizontalOptions="Center" />
         
-        <Editor x:Name="NameEditor"
+        <Editor x:Name="NombreTrujilloEditor"
                 Placeholder="Ingresa tu nombre"
                 HeightRequest="100" />
         
@@ -32,4 +33,5 @@
 
 
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
