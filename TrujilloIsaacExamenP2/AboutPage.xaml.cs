@@ -1,8 +1,8 @@
 namespace TrujilloIsaacExamenP2;
 
-public partial class NewPage1 : ContentPage
+public partial class AboutPage : ContentPage
 {
-	public NewPage1()
+	public AboutPage()
 	{
 		InitializeComponent();
 	}
